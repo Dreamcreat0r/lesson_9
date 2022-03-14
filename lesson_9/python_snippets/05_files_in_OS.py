@@ -32,7 +32,8 @@ time.gmtime(secs)  # вернет тьюпл со временем https://docs.
 os.path.dirname(path)
 # получить родительскую директорию текущего модуля
 os.path.dirname(__file__)
-
+# получить текущий путь
+os.path(__file__)
 # это самые основние, остальные см https://goo.gl/AB6aDQ
 
 
