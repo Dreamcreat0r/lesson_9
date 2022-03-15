@@ -1,10 +1,5 @@
-alph = []
-char_code = ord('А')
-while char_code <= ord('я'):
-    alph.append(chr(char_code))
-    char_code +=1 
-print(alph)
-index_little_yo = alph.index('ж')
-alph.insert(index_little_yo, 'ё')
-alph.insert(6, 'Ё')
-print('\n\n\n\n', alph)
+from pprint import pprint
+dic = {'a':1, 'b':123, 'c':2, 'r':234235, 'z':3}
+for key in sorted(dic, key=dic.get, reverse = False):
+    print(dic[key])
+pprint(dic)
