@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f68c6faa-fff7-4a07-beb5-92857aa13e65</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>01_char_stat.py</StartupFile>
+    <StartupFile>02_log_parser.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
