@@ -57,7 +57,7 @@ class Parser:
                 else:
                     if self.nok_count:
                         stats.write(f'{prev_str}] {self.nok_count}\n')
-                    self.nok_count = 1  # нада чета думатьadws
+                    self.nok_count = 1  
                     prev_str = string[left:right]
         stats.write(f'{prev_str}] {self.nok_count}\n')
         events.close()
